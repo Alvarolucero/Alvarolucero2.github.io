@@ -12,11 +12,18 @@ html {
 
 /* adjust typography defaults */
 body {
+--bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: var(--bs-gray-100);
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
 }
-
+table {
+  --bs-table-color: var(--bs-gray-600);
+  --bs-table-bg: var(--bs-gray-100);
+  --bs-table-border-color: transparent;
+}
 /* images and videos max out at full width */
 img,
 video {
