@@ -2,3 +2,9 @@ body {
 
   margin: 0rem;
 }
+
+.cover{
+  color:red;
+  height:400px;
+  background-color:blue;
+}
