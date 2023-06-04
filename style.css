@@ -1,10 +1,11 @@
 body {
-
   margin: 0rem;
 }
 
-.cover{
-  color:red;
-  height:400px;
-  background-color:blue;
+.cover {
+  color: red;
+  height: 400px;
+  background-image: url(https://cdn.glitch.global/c9a98e0b-9e29-4507-8cc7-b0a9429438c3/jorge-campos-VGe9S8ubljI-unsplash%20(
+      1
+    ).jpg?v=1685909656338);
 }
