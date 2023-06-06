@@ -8,4 +8,6 @@ body {
   background-image: url(https://cdn.glitch.global/c9a98e0b-9e29-4507-8cc7-b0a9429438c3/jorge-campos-VGe9S8ubljI-unsplash.jpg?v=1685910515463);
   background-size: cover;
   background-position: center;
+  background-color: rgba (    );
+  background-blend-mode: darken; en realidad no le tengo nada especifico ahi pero para recordar ahi y arriba para modificar color de portada
 }
