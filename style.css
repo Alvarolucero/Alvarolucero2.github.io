@@ -1,6 +1,11 @@
 body {
   margin: 0rem;
-font-family:
+
+}
+
+h1, h5{
+  font-family: 'Fjalla One', sans-serif;
+  
 }
 
 .cover {
