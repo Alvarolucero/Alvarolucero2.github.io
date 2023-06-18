@@ -12,6 +12,12 @@ body {
   background-blend-mode: darken;en realidad no le tengo nada especifico ahi pero para recordar ahi y arriba para modificar color de portada;
 }
 
+.cover-small{
+  height:200px;
+  background-blend-mode: normal;
+  
+}
+
 .card{
     border: 0 !important; 
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0.06);
