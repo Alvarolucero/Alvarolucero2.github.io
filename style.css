@@ -86,11 +86,15 @@ h1, h5{
 .slider{
   overflow-x:hidden;
   
+}
+
+.slider-container{
+  
+  transform:translateX(0);
+  
   
   
 }
-
-
 
 
 .image-container{
