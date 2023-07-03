@@ -91,9 +91,7 @@ h1, h5{
 .slider-container{
   
   transform:translateX(0);
-  
-  
-  
+  animation: slider 2s infinite
 }
 
 
@@ -104,5 +102,20 @@ h1, h5{
   background-size:cover;
   background-position:center;
   flex-shrink:0;
+  
+}
+
+
+@keyframes slider{
+  
+  0%{
+    transform:translateX(0);
+  }
+  
+  100%{
+    transform:translateX(-100%);
+    
+  }
+  
   
 }
