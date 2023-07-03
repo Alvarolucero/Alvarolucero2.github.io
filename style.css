@@ -52,7 +52,6 @@ h1, h5{
 .stripe-container, .slider-container{
   
   display:flex;
-  flex-direction:row;
   
 }
 
@@ -91,7 +90,7 @@ h1, h5{
 .slider-container{
   
   transform:translateX(0);
-  animation: slider 2s infinite
+  animation: slider 10s infinite
 }
 
 
@@ -112,8 +111,41 @@ h1, h5{
     transform:translateX(0);
   }
   
-  100%{
+  20%{
+    transform:translateX(0);
+    
+  }
+  
+  25%{
     transform:translateX(-100%);
+    
+  }
+  
+  45%{
+    transform:translateX(-100);
+    
+  }
+  
+  50%{
+    
+    transform:translateX(-200%);
+    
+  }
+  
+  
+  70%{
+    transform:translateX(-200%);
+    
+  }
+  
+  
+  75%{
+    
+    transform:translateX(0%);
+  }
+  
+  100%{
+    
     
   }
   
